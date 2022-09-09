@@ -15,7 +15,7 @@ int main(void)
 	{
 		if((alphabet != 'q') && (alphabet != 'e'))
 		{
-			purtchar(alphabet);
+			putchar(alphabet);
 		}
 		alphabet++;
 	}
