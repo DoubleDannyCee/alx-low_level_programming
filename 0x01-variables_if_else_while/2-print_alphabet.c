@@ -7,17 +7,14 @@
  * Return: always zero
  *
  */
-int main(void)
+int main()
 {
-	char alphabet;
+	int a;
 
-	alphabet = 'a';
-
-	while (alphabet <= 'z')
+	for (a='a'; a<='z'; a++)
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(a);
+		putchar("\n");
+	return (1);
 	}
-
-	return (0);
 }
