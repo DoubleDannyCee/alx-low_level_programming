@@ -13,6 +13,7 @@ int main(void)
 	char ALPHABET;
 	alphabet = 'a';
 	ALPHABET = 'A';
+
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);

@@ -18,6 +18,7 @@ int main(void)
 		putchar(alphabet);
 		alphabet++;
 	}
+		putchar(.);
 	return (0);
 }
 
