@@ -3,16 +3,16 @@
 /**
 *main - Entry point
 *
-* Program that  prints exactly Programming is like building a multilingual puzzle, followed by a new line
+*Program that prints exactly Programming is like building a multilingual puzzle
 *
-* Return ; always zero
+*Return: Always 0 (Success)
 */
 
 int main(void)
 
 {
 
-puts("\"Programming is like building a multilingual puzzle"); 
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 
 
