@@ -11,6 +11,7 @@ int main(void)
 {
 	char alphabet;
 	char ALPHABET;
+
 	alphabet = 'a';
 	ALPHABET = 'A';
 
