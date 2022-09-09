@@ -25,5 +25,6 @@ int main(void)
 		putchar(ALPHABET);
 		ALPHABET++;
 	}
+		putchar('\n');
 	return (0);
 }
