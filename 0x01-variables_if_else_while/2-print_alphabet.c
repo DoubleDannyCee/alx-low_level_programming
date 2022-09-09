@@ -7,7 +7,7 @@
  * Return: always zero
  *
  */
-int main(void)
+int main()
 {
 	char alphabet;
 
