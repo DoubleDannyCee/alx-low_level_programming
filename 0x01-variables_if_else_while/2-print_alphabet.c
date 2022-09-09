@@ -19,5 +19,5 @@ int main(void)
 		alphabet++;
 	}
 
-	return (0);
+	return (1);
 }
