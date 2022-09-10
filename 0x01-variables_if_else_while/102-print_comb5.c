@@ -12,7 +12,8 @@ int main(void)
 	int ones;
 	int t;
 	int o;
-	int c;	
+	int c;
+	
 	c = 1;
 
 	while (c <= 2)
