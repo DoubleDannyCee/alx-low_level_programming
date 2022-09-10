@@ -12,6 +12,10 @@ int main(void)
 	int ones;
 	int t;
 	int o;
+	int c=1;
+	
+	while (c<=2)
+	{
 
 	for (tens = '0'; tens <= '9'; tens++)
 	{
@@ -36,6 +40,8 @@ int main(void)
 			o = '0';
 		}
 	}
+}
+c = c++;
 }
 putchar('\n');
 
