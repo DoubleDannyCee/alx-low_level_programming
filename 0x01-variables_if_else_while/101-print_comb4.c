@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - output all combo of 3 different digits
+ * main - output all combo of 3 different digits
  *
  * Return: Always 0 (Success)
  *
@@ -13,7 +13,7 @@ int main(void)
 	int ten;
 	int hundred;
 
-	for (hundred = '0'; hundred <= '9'; hundred ++)
+	for (hundred = '0'; hundred <= '9'; hundred++)
 	{
 		for (ten = (hundred + 1); ten <= '9'; ten++)
 		{
