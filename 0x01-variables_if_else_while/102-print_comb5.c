@@ -31,7 +31,7 @@ int main(void)
 				putchar(t);
 				putchar(o);
 
-				if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
+				if (!((tens == '9' && ones == '9') && (t == '9' && o == '9')))
 				{
 					putchar(',');
 					putchar(' ');
@@ -42,7 +42,6 @@ int main(void)
 	}
 }
 c++;
-putchar('\n');
 }
 putchar('\n');
 
