@@ -12,9 +12,7 @@ int main(void)
 	int ones;
 	int t;
 	int o;
-	int c;
-	
-	c = 1;
+	int c = 1;
 
 	while (c <= 2)
 	{
