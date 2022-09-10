@@ -43,8 +43,8 @@ int main(void)
 }
 c++;
 }
-putchar('0');
-putchar('1');
+write('0');
+write('1');
 putchar('\n');
 
 return (0);
