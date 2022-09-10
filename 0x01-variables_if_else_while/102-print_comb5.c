@@ -12,8 +12,7 @@ int main(void)
 	int ones;
 	int t;
 	int o;
-	int c;
-	
+	int c;	
 	c = 1;
 
 	while (c <= 2)
@@ -33,7 +32,7 @@ int main(void)
 				putchar(t);
 				putchar(o);
 
-				if (!((tens == '9' && ones == '9') && (t == '9' && o == '9')))
+				if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
 				{
 					putchar(',');
 					putchar(' ');
