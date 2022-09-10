@@ -43,9 +43,7 @@ int main(void)
 }
 c++;
 }
-write('0');
-write('1');
-putchar('\n');
+putchar('1\n');
 
 return (0);
 }
