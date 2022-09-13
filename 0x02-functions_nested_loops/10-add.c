@@ -6,14 +6,14 @@
 #include "main.h"
 
 /**
- * sum - Sums 2 integers
+ * add - Sums 2 integers
  * @n1: First integer
  * @n2: Second integer
  *
  * Return: Sum
  */
 
-int sum(int n1, int n2)
+int add(int n1, int n2)
 {
 	return (n1 + n2);
 }
