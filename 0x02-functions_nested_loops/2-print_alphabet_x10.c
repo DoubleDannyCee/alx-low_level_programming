@@ -8,6 +8,7 @@
 
 void print_alphabet_x10(void)
 {
+	int x;
 	char a;
 
 	a = 'a';
