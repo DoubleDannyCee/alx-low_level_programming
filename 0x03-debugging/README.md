@@ -57,7 +57,7 @@ carrie@ubuntu:/debugging$ cat main.h
 void positive_or_negative(int i);
 
 #endif /* MAIN_H */
-carrie@ubuntu:/debugging$ 
+carrie@ubuntu:/debugging$
 
 carrie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c main.c
 carrie@ubuntu:/debugging$ ./a.out
@@ -76,7 +76,7 @@ carrie@ubuntu:/debugging$ ./0-main
 0 is zero
 carrie@ubuntu:/debugging$ wc -l 0-main.c
 16 1-main.c
-carrie@ubuntu:/debugging$ 
+carrie@ubuntu:/debugging$
 
 Repo:
 
@@ -347,9 +347,9 @@ void print_remaining_days(int month, int day, int year)
     }
 }
 
-carrie@ubuntu:/debugging$ 
+carrie@ubuntu:/debugging
 
-carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
+carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a
 carrie@ubuntu:/debugging$ ./3-main_a
 Date: 04/01/1997
 Day of the year: 91
@@ -358,7 +358,7 @@ carrie@ubuntu:/debugging$
 
 Output looks good for 04/01/1997! Let’s make a new main file 3-main_b.c to try a case that is a leap year: 02/29/2000.
 
-carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
+carrie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b
 carrie@ubuntu:/debugging$ ./3-main_b
 Date: 02/29/2000
 Invalid date: 02/29/2000
