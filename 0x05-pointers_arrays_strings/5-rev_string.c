@@ -27,4 +27,5 @@ void rev_string(char *s)
 		s[i] = s[t];
 		s[t--] = f;
 	}
+}
 
