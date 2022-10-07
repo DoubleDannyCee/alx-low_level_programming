@@ -8,7 +8,7 @@
  * @b: This is the length to allocate in the memory
  *
  * Return: Returns a pointer to the allocated memory
- *         if malloc fails, the malloc_checked function should cause normal 
+ *         if malloc fails, the malloc_checked function should cause normal
  *         process
  *         termination with a status value of 98
  *
